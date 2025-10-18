@@ -1,11 +1,22 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+
+  // ✅ Static export enable (Next.js 15+)
+  output: 'export',
+
+  // ✅ Disable image optimization for static build
+  images: {
+    unoptimized: true,
+    domains: ["lovable.dev"],
+  },
+
+  // ✅ Ignore ESLint errors during build (for smooth CI/CD)
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: {
-    domains: ["lovable.dev"],
-  },
+
+  // ✅ Add important security headers
   headers: async () => [
     {
       source: "/(.*)",
@@ -21,4 +32,4 @@ const nextConfig = {
   ],
 };
 
-module.exports = nextConfig;
+export default nextConfig;
