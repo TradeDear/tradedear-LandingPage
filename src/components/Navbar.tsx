@@ -71,7 +71,7 @@ const Navbar = () => {
               asChild
             >
               <a
-                href="https://account.tradedear.info/login"
+                href="https://app.tradedear.com/login"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -86,7 +86,7 @@ const Navbar = () => {
               asChild
             >
               <a
-                href="https://account.tradedear.info/signup"
+                href="https://app.tradedear.com/signup"
                 target="_blank"
                 rel="noopener noreferrer"
               >
