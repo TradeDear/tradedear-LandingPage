@@ -21,7 +21,7 @@ const CTA = () => {
   asChild
 >
   <a
-    href="https://account.tradedear.info/signup"
+    href="https://app.tradedear.com/signup"
     target="_blank"
     rel="noopener noreferrer"
   >
