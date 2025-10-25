@@ -22,6 +22,7 @@ export const metadata: Metadata = {
   },
   description: "Trade Crypto & Forex with Confidence.",
   keywords: [
+    "best crypto broker",
     "crypto trading",
     "forex trading",
     "intraday trading",
@@ -77,7 +78,7 @@ export default function RootLayout({
     "@id": "https://tradedear.com/#organization",
     name: "TradeDear",
     url: "https://tradedear.com/",
-    logo: "https://tradedear.com/logo.png",
+    logo: "https://tradedear.com/Tradedear-logo.png",
     slogan: "Trade Crypto & Forex with Confidence.",
     sameAs: [
       // ✅ Social links add karna optional
